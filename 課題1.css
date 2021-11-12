@@ -45,7 +45,8 @@ main{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #ff9a4b;
+    color: #fff;
 }
 .title{
     margin: 15px 0 15px;
@@ -63,14 +64,19 @@ footer{
         height: 50px;
     }
     main{
-        padding: 50px auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        display: flex;
+        flex-flow: column;
     }
     .step{
         width: 90%;
-        padding: 20px auto;
+        margin: 20px;
     }
     .step1-img{
         height: 150px;
+        background-position: center;
     }
     .step2-img{
         height: 150px;
